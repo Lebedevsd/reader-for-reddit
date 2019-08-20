@@ -8,6 +8,8 @@ class LoginViewModel(): ViewModel(){
     init {
         viewModelScope.launch {
             // Coroutine that will be canceled when the ViewModel is cleared.
+
+
         }
     }
 }
