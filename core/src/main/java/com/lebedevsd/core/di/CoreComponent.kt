@@ -7,5 +7,5 @@ import javax.inject.Singleton
 @Component(modules = [CoreModule::class])
 @Singleton
 interface CoreComponent {
-    fun getRetrofit(): Retrofit
+    fun getRetrofitBuilder(): Retrofit.Builder
 }
